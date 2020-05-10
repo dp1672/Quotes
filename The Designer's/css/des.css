@@ -1,0 +1,126 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffebef;
+}
+#clock{
+    position: absolute;
+    left: 34%;
+    top: 5%;
+}
+.container{
+    position: relative;
+    background-image: url('QUOTES.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 30%;
+}
+.container:after{
+    content: 'QUOTES';
+    position: absolute;
+    top: 81%;
+    left: 13.9375vw;
+    color: black;
+    font-size: 18vw;
+    opacity: 0.09;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.quotes {
+    padding-top: 3.125vw;
+    padding-left: 6.25vw;
+    font-size: 7.5vw;
+    font-family: 'Sacramento', cursive;
+    color: #ff0000;
+}
+.quotes span{
+    text-align: right;
+    font-size: 1.125vw;
+    font-family: 'Montserrat classic';
+    position: relative;
+    top: -8.125vw;
+    right: -12.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 0.3125vw;
+    font-weight: bold;
+}
+header ul{
+    position: relative;
+    display: flex;
+    padding-right: 5.625vw;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    font-size: 2.02vw;
+    font-family: 'Quicksand', sans-serif;
+    color: #ff5757;
+    margin-right: 4.25vw;  
+}
+header ul li:nth-child(3) a{
+    color: #FF0000;
+}
+.bottom{
+    position: relative;
+    padding: 4.375vw;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23.125vw;
+}
+.bottom-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.bottom div span{
+    position: absolute;
+    font-size: 2.875vw;
+    bottom: 4.45vw;
+    color: #f8aca2;
+    font-family: 'Quicksand', sans-serif;
+}
+.bottom div:nth-child(2) span{
+    position: absolute;
+    font-size: 2.875vw;
+    bottom: 4.45vw;
+    color: #f8aca2;
+    font-family: 'Quicksand', sans-serif;
+}
+.bottom div:nth-child(3) span{
+    position: absolute;
+    font-size: 2.875vw;
+    bottom: 4.45vw;
+    color: #f8aca2;
+    font-family: 'Quicksand', sans-serif;
+}
+.bottom-img{
+    position: relative;
+    padding: 4.375vw;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-img span{
+    position: absolute;
+    font-size: 2.875vw;
+    bottom: 4.1vw;
+    left: 1.25vw;
+    color: #f8aca2;
+    font-family: 'Quicksand', sans-serif;
+}
+.bottom-img img{
+    margin-top: -14%;
+    width: 121%;
+}
